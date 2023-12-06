@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>오직연어 MAIN</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        .clear {
+            clear: both;
+        }
+        body {
+            background-color: rgb(255, 244, 230);
+            font-family: "pretendard";
+        }
+        header {
+            width: 1280px;
+            height: 60px;
+            margin: 0 auto;
+        }
+        li {
+            list-style-type: none;
+        }
+        #logo {
+            width: 100px;
+            margin-top: 20px;
+        }
+        #menu {
+            float: right;
+        }
+        #menu li {
+            display: inline;
+            margin-left: 40px;
+            
+        }
+        #menu a {
+            text-decoration: none;
+            color: rgb(73, 73, 73);
+        }
+        #menu a:hover {
+            color: #ff6d00;
+            font-weight: bold;
+            transition: 0.2s ease-out;
+        }
+        #select_page {
+            color: #ff6d00;
+            font-weight: bold;
+        }
+        section {
+            width: 1280px;
+            height: 800px;
+            margin: 0 auto;
+        }
+        #button {
+            padding-top: 100px;
+            text-align: center;
+        }
+        #button li {
+            width: 100px;
+            display: inline;
+            border: solid 1px #ff6d00;
+            border-radius: 40px;
+            margin: 0 5px;
+            padding: 10px 30px; 
+        }
+        #button_select {
+            background-color: #ff6d00;
+            color: white;
+        }
+        #button a {
+            text-decoration: none;
+            color: rgb(73, 73, 73);
+        }
+        #contents_1 {
+            height: 800px;
+        }
+        #recipe {
+            width: 1280px;
+            margin-top: 70px;
+
+        }
+        .box {
+            width: 350px;
+            margin: 0 30px;
+            margin-bottom: 50px;
+            position: relative;
+            display: inline-block;
+            border: solid 0px #ff6d00;
+        }
+        .box_title {
+            margin: 15px 0 8px 0;
+            font-size: 22px;
+            font-weight: bold;
+        }
+        .box_price {
+            margin-bottom: 10px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .box_detail {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        footer {
+            background-color: #ff6d00;
+        }
+        #footer_box {
+            width: 1280px;
+            height: 150px;
+            margin: 0 auto;
+        }
+        #footer_logo {
+            float: left;
+            margin: 50px 0 0 30px;
+        }
+        #footer_info {
+            float: left;
+            margin: 50px 30px 0 0;
+            color: white;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <a href="./index.html"><img src="./img/logo.png" width="100"></a>
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="./page1.html">부위별</a></li>
+                <li><a href="./page2.html">효능</a></li>
+                <li><a href="./page3.html">요리법</a></li>
+                <li id="select_page">와인과함께</li>
+                <li><a href="./page5.html">맛집</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section id="contents_1">
+        <div id="button">
+            <ul>
+                <li><a href="./page4.html">~3만원</a></li>
+                <li id="button_select">3만원~6만원</li>
+            </ul>
+        </div>
+        <div id="recipe">
+            <div class="box">
+                <img src="./img/wine_07.png" width="350">
+                <p class="box_title">로카 디 몬테그로시, 로사토</p>
+                <p class="box_price">34,000원</p>
+                <p class="box_detail">스타일: 로제</p>
+                <p class="box_detail">원산지: 이태리</p>
+            </div>
+            <div class="box">
+                <img src="./img/wine_08.png" width="350">
+                <p class="box_title">도마네 고벨스버그 로제</p>
+                <p class="box_price">37,000원</p>
+                <p class="box_detail">스타일: 로제</p>
+                <p class="box_detail">원산지: 오스트리아</p>
+            </div>
+            <div class="box">
+                <img src="./img/wine_09.png" width="350">
+                <p class="box_title">맥기건 블락라벨 샤도네이</p>
+                <p class="box_price">44,000원</p>
+                <p class="box_detail">스타일: 화이트</p>
+                <p class="box_detail">원산지: 호주</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="clear"></div>
+    <footer>
+        <div id="footer_box">
+            <ul id="footer_info">
+                <li>오직연어</li>
+                <li>ONLYSALMON</li>
+                <li>copyright ⓒ JANGSEONGKYUNG ALL RIGHTS RESERVED</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

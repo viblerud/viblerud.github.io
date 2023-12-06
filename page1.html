@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>오직연어 MAIN</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        .clear {
+            clear: both;
+        }
+        body {
+            background-color: rgb(255, 244, 230);
+            font-family: "pretendard";
+        }
+        header {
+            width: 1280px;
+            height: 60px;
+            margin: 0 auto;
+        }
+        li {
+            list-style-type: none;
+        }
+        #logo {
+            width: 100px;
+            margin-top: 20px;
+        }
+        #menu {
+            float: right;
+        }
+        #menu li {
+            display: inline;
+            margin-left: 40px;    
+        }
+        #menu a {
+            text-decoration: none;
+            color: rgb(73, 73, 73);
+        }
+        #menu a:hover {
+            color: #ff6d00;
+            font-weight: bold;
+            transition: 0.2s ease-out;
+        }
+        #select_page {
+            color: #ff6d00;
+            font-weight: bold;
+        }
+        section {
+            width: 1280px;
+            height: 1400px;
+            margin: 0 auto;
+        }
+        #content_img {
+            margin: 50px 200px;
+        }
+        #section_title {
+            margin-top: 100px;
+            text-align: center;
+            font-size: 40px;
+            color: #ff6d00;
+        }
+        #section_text {
+            text-align: center;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+        .section_title_2 {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 25px;
+            color: #ff6d00;
+        }
+        .section_text_2 {
+            text-align: center;
+            font-size: 15px;
+            margin-top: 10px;
+            margin-bottom: 50px;
+        }
+        footer {
+            background-color: #ff6d00;
+        }
+        #footer_box {
+            width: 1280px;
+            height: 150px;
+            margin: 0 auto;
+        }
+        #footer_logo {
+            float: left;
+            margin: 50px 0 0 30px;
+        }
+        #footer_info {
+            float: left;
+            margin: 50px 30px 0 0;
+            color: white;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <a href="./index.html"><img src="./img/logo.png" width="100"></a>
+        </div>
+        <div id="menu">
+            <ul>
+                <li id="select_page">부위별</li>
+                <li><a href="./page2.html">효능</a></li>
+                <li><a href="./page3.html">요리법</a></li>
+                <li><a href="./page4.html">와인과함께</a></li>
+                <li><a href="./page5.html">맛집</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section id="contents_1">
+        <h3 id="section_title">통연어 필레</h3>
+        <p id="section_text">연어는 크게 5가지 부위로 나눌 수 있습니다.<br>
+            연어의 몸통을 기준으로 허리 상단부위 살 (top loin), 허리살 (loin), 뱃살 (belly), 그리고 꼬리 앞 부위와(second cut) 꼬리(tail) 부위입니다.</p>
+        <div id="content_img">
+            <img src="./img/salmon.png">
+        </div>
+        <h2 class="section_title_2">연어의 등심인 허리 상단부위 (top loin)</h2>
+        <p class="section_text_2">연어의 등심이라고도 불리는 허리 상단부위는 연어 부위 중에서도 가장 고급스러운 부위로 꼽힌다고 합니다.<br>
+            살코기 대비 지방 비율이 높기 때문에 식감이 부드러워 회 혹은 구이용으로 좋습니다.</p>
+        <hr style="border: dashed 1px rgb(205, 205, 205);">
+        <h2 class="section_title_2">살코기가 단단한 꼬리와 꼬리 앞 부위, 꼬리 (Tail) & 꼬리 앞 부위(Second Cut)</h2>
+        <p class="section_text_2">연어 중 가장 작고 얇은 부위인 꼬리 부위는 중앙을 가로지르는 굵은 지방층으로 구분됩니다.<br>
+            연어 꼬리 부위는 상대적으로 다른 부위에 비해 육질이 단단한 편이어서 큐브로 썰거나 다져도 식감이 살아있습니다.<br>
+            그 덕분에 회덮밥이나 샐러드에 썰어서 함께 넣어주면 탱탱한 식감과 고소한 맛을 느낄 수 있고, 다이어트용으로 제격입니다.</p>
+        <hr style="border: dashed 1px rgb(205, 205, 205);">
+        <h2 class="section_title_2">찜요리는 허릿살(loin)</h2>
+        <p class="section_text_2">허릿살은 지방질과 육질이 고르게 섞인 균형 잡힌 부위로 부드러운 맛이 특징입니다.<br>
+            두께가 두꺼워서 찜, 스테이크 혹은 얇게 썰어 꽃 모양의 샐러드로 만들어 드시기 좋은 부위입니다.</p>
+        <hr style="border: dashed 1px rgb(205, 205, 205);">
+        <h2 class="section_title_2">입에 넣으면 살살 녹는 뱃살(belly)</h2>
+        <p class="section_text_2">뱃살부위는 지방질이 많아 부드럽고 고소한 풍미를 즐기기 아주 적합한 부위입니다.<br>
+            주로 생으로 먹는 것이 좋아서 회 혹은 초밥으로 즐길 때 그 맛을 가장 제대로 느낄 수 있습니다.</p>
+    </section>
+
+    <div class="clear"></div>
+    <footer>
+        <div id="footer_box">
+            <ul id="footer_info">
+                <li>오직연어</li>
+                <li>ONLYSALMON</li>
+                <li>copyright ⓒ JANGSEONGKYUNG ALL RIGHTS RESERVED</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

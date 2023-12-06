@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>오직연어 MAIN</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        .clear {
+            clear: both;
+        }
+        body {
+            background-color: rgb(255, 244, 230);
+            font-family: "pretendard";
+        }
+        header {
+            width: 1280px;
+            height: 60px;
+            margin: 0 auto;
+        }
+        li {
+            list-style-type: none;
+        }
+        #logo {
+            width: 100px;
+            margin-top: 20px;
+        }
+        #menu {
+            float: right;
+        }
+        #menu li {
+            display: inline;
+            margin-left: 40px;
+            
+        }
+        #menu a {
+            text-decoration: none;
+            color: rgb(73, 73, 73);
+        }
+        #menu a:hover {
+            color: #ff6d00;
+            font-weight: bold;
+            transition: 0.2s ease-out;
+        }
+        #select_page {
+            color: #ff6d00;
+            font-weight: bold;
+        }
+        section {
+            width: 1280px;
+            height: 2000px;
+            margin: 0 auto;
+        }
+        #section_title {
+            margin-top: 100px;
+            text-align: center;
+            font-size: 40px;
+            color: #ff6d00;
+        }
+        #section_text {
+            text-align: center;
+            font-size: 20px;
+            margin-top: 10px;
+        }
+        .salmon {
+            margin: 100px 15px 0 15px;
+            display: inline-block;
+        }
+        .salmon img {
+            border-radius: 20px;
+        }
+        .salmon_title {
+            margin-top: 20px;
+        }
+        .salmon_text {
+            width: 600px;
+            margin-top: 10px;
+        }
+        footer {
+            background-color: #ff6d00;
+        }
+        #footer_box {
+            width: 1280px;
+            height: 150px;
+            margin: 0 auto;
+        }
+        #footer_logo {
+            float: left;
+            margin: 50px 0 0 30px;
+        }
+        #footer_info {
+            float: left;
+            margin: 50px 30px 0 0;
+            color: white;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <a href="./index.html"><img src="./img/logo.png" width="100"></a>
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="./page1.html">부위별</a></li>
+                <li id="select_page">효능</li>
+                <li><a href="./page3.html">요리법</a></li>
+                <li><a href="./page4.html">와인과함께</a></li>
+                <li><a href="./page5.html">맛집</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section id="contents_1">
+        <h3 id="section_title">타임지가 선정한 10대 푸드</h3>
+        <p id="section_text">우리가 잘 몰랐던 연어 효능 6가지</p>
+        <div class="salmon">
+            <img src="./img/salmon_01.jpg" width="600">
+            <h3 class="salmon_title">혈관건강</h3>
+            <p class="salmon_text">오메가3지방산인 EPA, DHA가 콜레스테롤 수치를 낮추고 동맥벽의 경화를 방지해서 혈압을 내려주는 역할
+                때문에 고혈압, 동맥경화, 심장병, 뇌졸중 등 혈관질환을 예방해 주고 염증감소에 효과가 있다.</p>
+        </div>
+        <div class="salmon">
+            <img src="./img/salmon_02.jpg" width="600">
+            <h3 class="salmon_title">두뇌건강</h3>
+            <p class="salmon_text">비타민A, 비타민D, 아미노산, 셀레늄 성분이 뇌의 노화를 막아주고 뇌기능을 강화해 기억력과 인지능력을 향상시킨다<br><br></p>
+        </div>
+        <div class="salmon">
+            <img src="./img/salmon_03.jpg" width="600">
+            <h3 class="salmon_title">뼈건강</h3>
+            <p class="salmon_text">다량의 비타민D 성분이 칼슘과 인의 대사를 도와 뼈를 튼튼하게 하고 골다공증과 같은 관절질환의 위험률을 낮춰준다.
+                비타민B군 역시 풍부해 어린아이들의 성장 발육에 좋다.</p>
+        </div>
+        <div class="salmon">
+            <img src="./img/salmon_04.jpg" width="600">
+            <h3 class="salmon_title">피부미용</h3>
+            <p class="salmon_text">강력한 항산화물질인 아스타잔틴이 노화를 일으키는 활성산소를 제거해 피부노화 방지 및 피부를 탄력 있게 해 주고 미백, 주름개선에 효능이 있다.</p>
+        </div>
+        <div class="salmon">
+            <img src="./img/salmon_05.jpg" width="600">
+            <h3 class="salmon_title">눈건강</h3>
+            <p class="salmon_text">연어에 함유된 비타민A, 오메가3 지방산, 아스타잔틴, 아미노산 등 다양한 영양소가 안구건강을 증진시켜준다.
+                비타민A는 어두운 곳에서 시각을 유지하도록 해주고 오메가3지방산은 안구건조증예방 및 망막건강을 지켜준다.             
+                아스타잔틴은 눈의 피로를 완화해 주고 백내장, 녹내장, 황반변성 등의 안구질환들을 예방하는 데 도움을 준다.</p>
+        </div>
+        <div class="salmon">
+            <img src="./img/salmon_06.jpg" width="600">
+            <h3 class="salmon_title">체중관리</h3>
+            <p class="salmon_text">신체세포, 근육조직 등을 구성해 주는 양질의 단백질이 풍부해 신진대사를 촉진하고 체지방 연소에 효과적이다.
+                또한, 식욕 조절 호르몬인 렙틴 분비를 촉진, 포만감을 느끼게 해 다이어트에 도움이 된다.<br><br></p>
+        </div>
+    </section>
+
+    <div class="clear"></div>
+    <footer>
+        <div id="footer_box">
+            <ul id="footer_info">
+                <li>오직연어</li>
+                <li>ONLYSALMON</li>
+                <li>copyright ⓒ JANGSEONGKYUNG ALL RIGHTS RESERVED</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>오직연어 MAIN</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        .clear {
+            clear: both;
+        }
+        body {
+            background-color: rgb(255, 244, 230);
+            font-family: "pretendard";
+            background-image: url(./img/bg.jpg);
+            background-position-y: center;
+        }
+        header {
+            width: 1280px;
+            height: 60px;
+            margin: 0 auto;
+        }
+        li {
+            list-style-type: none;
+        }
+        #logo {
+            width: 100px;
+            margin-top: 20px;
+        }
+        #menu {
+            float: right;
+        }
+        #menu li {
+            display: inline;
+            margin-left: 40px;
+        }
+        #menu a {
+            text-decoration: none;
+            color: white;
+        }
+        #menu a:hover {
+            color: #ff6d00;
+            font-weight: bold;
+            transition: 0.2s ease-out;
+        }
+        section {
+            width: 1280px;
+            height: 700px;
+            margin: 0 auto;
+        }
+        #main_text {
+            margin-top: 200px;
+            text-align: center;
+            font-size: 250px;
+            color: white;
+            font-weight: bold;
+        }
+        section p {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 50px;
+            color: white;
+        }
+        footer {
+            background-color: #ff6d00;
+        }
+        #footer_box {
+            width: 1280px;
+            height: 150px;
+            margin: 0 auto;
+        }
+        #footer_info {
+            float: left;
+            margin: 50px 30px 0 0;
+            color: white;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="./img/logo.png" width="100">
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="./page1.html">부위별</a></li>
+                <li><a href="./page2.html">효능</a></li>
+                <li><a href="./page3.html">요리법</a></li>
+                <li><a href="./page4.html">와인과함께</a></li>
+                <li><a href="./page5.html">맛집</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section id="contents_1">
+        <h3 id="main_text">SALMON</h3>
+        <p>연어의 맛있는 변신</p>
+    </section>
+
+    <div class="clear"></div>
+
+    <footer>
+        <div id="footer_box">
+            <ul id="footer_info">
+                <li>오직연어</li>
+                <li>ONLYSALMON</li>
+                <li>copyright ⓒ JANGSEONGKYUNG ALL RIGHTS RESERVED</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

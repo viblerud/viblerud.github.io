@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>오직연어 MAIN</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        .clear {
+            clear: both;
+        }
+        body {
+            background-color: rgb(255, 244, 230);
+            font-family: "pretendard";
+        }
+        header {
+            width: 1280px;
+            height: 60px;
+            margin: 0 auto;
+        }
+        li {
+            list-style-type: none;
+        }
+        #logo {
+            width: 100px;
+            margin-top: 20px;
+        }
+        #menu {
+            float: right;
+        }
+        #menu li {
+            display: inline;
+            margin-left: 40px;
+            
+        }
+        #menu a {
+            text-decoration: none;
+            color: rgb(73, 73, 73);
+        }
+        #menu a:hover {
+            color: #ff6d00;
+            font-weight: bold;
+            transition: 0.2s ease-out;
+        }
+        #select_page {
+            color: #ff6d00;
+            font-weight: bold;
+        }
+        section {
+            width: 1280px;
+            height: 800px;
+            margin: 0 auto;
+        }
+        #button {
+            padding-top: 100px;
+            text-align: center;
+        }
+        #button li {
+            width: 100px;
+            display: inline;
+            border: solid 1px #ff6d00;
+            border-radius: 40px;
+            margin: 0 5px;
+            padding: 10px 30px; 
+        }
+        #button_select {
+            background-color: #ff6d00;
+            color: white;
+        }
+        #button a {
+            text-decoration: none;
+            color: rgb(73, 73, 73);
+        }
+        #button li:hover {
+            background-color: #ff6d00;
+            color: white;
+            transition: 0.2s ease-out;
+        }
+        #contents_1 {
+            height: 1300px;
+        }
+        #recipe {
+            width: 1280px;
+            margin-top: 70px;
+
+        }
+        img {
+            border-radius: 5%;
+        }
+        .box {
+            width: 350px;
+            margin: 0 30px;
+            margin-bottom: 50px;
+            position: relative;
+            display: inline-block;
+            border: solid 0px #ff6d00;
+        }
+        .box_title {
+            margin: 10px 0 15px 0;
+            font-size: 22px;
+            font-weight: bold;
+        }
+        .box_detail {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        footer {
+            background-color: #ff6d00;
+
+        }
+        #footer_box {
+            width: 1280px;
+            height: 150px;
+            margin: 0 auto;
+
+        }
+        #footer_logo {
+            float: left;
+            margin: 50px 0 0 30px;
+        }
+        #footer_info {
+            float: left;
+            margin: 50px 30px 0 0;
+            color: white;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <a href="./index.html"><img src="./img/logo.png" width="100"></a>
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="./page1.html">부위별</a></li>
+                <li><a href="./page2.html">효능</a></li>
+                <li id="select_page">요리법</li>
+                <li><a href="./page4.html">와인과함께</a></li>
+                <li><a href="./page5.html">맛집</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="clear"></div>
+
+    <section id="contents_1">
+        <div id="button">
+            <ul>
+                <li><a href="./page3.html">회</a></li>
+                <li id="button_select">훈제</li>
+                <li><a href="./page3-2.html">스테이크</a></li>
+            </ul>
+        </div>
+        <div id="recipe">
+            <div class="box">
+                <img src="./img/recipe_04.jpg" width="350">
+                <p class="box_title">훈제연어 베이글</p>
+                <p class="box_detail">난이도 ★☆☆</p>
+                <p class="box_detail">소요시간 15분</p>
+            </div>
+            <div class="box">
+                <img src="./img/recipe_05.jpg" width="350">
+                <p class="box_title">연어 브루스게타</p>
+                <p class="box_detail">난이도 ★☆☆</p>
+                <p class="box_detail">소요시간 20분</p>
+            </div>
+            <div class="box">
+                <img src="./img/recipe_06.jpg" width="350">
+                <p class="box_title">연어 오렌지 샐러드</p>
+                <p class="box_detail">난이도 ★☆☆</p>
+                <p class="box_detail">소요시간 25분</p>
+            </div>
+            <div class="box">
+                <img src="./img/recipe_07.jpg" width="350">
+                <p class="box_title">훈제 연어 수프</p>
+                <p class="box_detail">난이도 ★☆☆</p>
+                <p class="box_detail">소요시간 40분</p>
+            </div>
+            <div class="box">
+                <img src="./img/recipe_08.jpg" width="350">
+                <p class="box_title">스노우 보드(크림치즈 보드)</p>
+                <p class="box_detail">난이도 ★☆☆</p>
+                <p class="box_detail">소요시간 20분</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="clear"></div>
+    <footer>
+        <div id="footer_box">
+            <ul id="footer_info">
+                <li>오직연어</li>
+                <li>ONLYSALMON</li>
+                <li>copyright ⓒ JANGSEONGKYUNG ALL RIGHTS RESERVED</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
